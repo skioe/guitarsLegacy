@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Guitar World</title>
+	<title>Guitar Encyclopedia</title>
 	<link rel="stylesheet" href="CSS/main.css">
-	<link rel="normalize" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link rel="normalize" href="https://neculas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700i&display=swap&subset=cyrillic-ext" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap&subset=cyrillic-ext" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
@@ -16,24 +17,113 @@
 
 	<div class="intro__content">
 		<div class="title__wrap">
-			<h1 class="intro__title">Гитарная энциклопедия</h1>
-		</div>
+			<h1 class="intro__title">Гитарная Энциклопедия</h1>
+		</div>	
 
 		<div class="title__welcome">
-			<div class="welcome">Добро пожаловать на Гитарную энциклопедию!
+			<div class="welcome">Добро пожаловать на Гитарную Энциклопедию!
 				<br>
-			На этом сайте вы узнаете практически все, что касается как гитар, так и музыки в целом.
+			На этом сайте вы узнаете практически все, что касается гитар.
 				<br>
-			Табы, аккорды, инструкции по уходу за гитарой: все это и многое другое представлено здесь</div>
+			Большое количество ссылок на источники огромного количества полезной информации, и все это в одном месте! </div>
 		</div>
 
 		<div class="arrow__container">
-			<img class="arrow" src="pics_and_templates/Arrow-down.svg.png"
+			<img class="arrow" src="pics_and_templates/Arrow-down.svg__bigger.png"
 			     alt="oh no">
 		</div>
 	</div>
 </div>
 
+<main class="main">
+	<div class="main__image">
+		<img src="pics_and_templates/main_bg_2.jpg" class="main__image__media" alt=":("/>
+	</div>
+
+	<div class="main__content">
+		<div class="cards">
+			<div class="row">
+				<div class="card_1_com card_1">
+					<a class="card_link" href="https://tuneronline.ru/" target="_blank">
+						<div class="card__container cc_1">
+						<div class="card__title card_1__title__wrap">
+							<p>Тюнер онлайн</p>
+						</div>
+
+					</div>
+					</a>
+				</div>
+				<div class="card_2_com card_2">
+					<a href="http://gitarre.ru/applikatury-akkordov" class="card_link" target="_blank">
+						<div class="card__container cc_2">
+							<div class="card__title card_2__title__wrap">
+								<p>Аппликатуры аккордов</p>
+							</div>
+
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row__huge">
+				<div class="card_3_com card_3">
+					<div class="card__container cc_3">
+						<div class="card__title card_3__title__wrap">
+							<p>Уроки игры на гитаре</p>
+						</div>
+						<div class="card_3_list_wrap">
+							<ul class="card_3_list" type="none">
+								<li class="card_3_element_list element_list">
+									<a class="list_link" target="_blank" href="https://www.youtube.com/user/0guitars">Уроки гитары с нуля</a>
+								</li>
+								<li class="card_3_element_list element_list">
+									<a class="list_link" target="_blank" href="https://yousician.com/">Приложение для обучения</a>
+								</li>
+								<li class="card_3_element_list element_list">
+									<a class="list_link" target="_blank" href="https://pereborom.ru/uroki-igry-na-gitare/">Общая информация об обучении</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row_2">
+				<div class="card_4_com card_4">
+					<div class="card__container cc_4">
+						<div class="card__title card_4__title__wrap">
+							<p>Табулатуры и аккорды</p>
+						</div>
+						<div class="card_4_list_wrap">
+							<ul class="card_4_list" type="none">
+								<li class="card_4_element_list element_list">
+									<a class="list_link" target="_blank" href="https://amdm.ru/">AmDm - огромная база песен с аккордами</a>
+								</li>
+								<li class="card_4_element_list element_list">
+									<a class="list_link" target="_blank" href="https://aktabs.ru/">AkTabs - табы популярных песен</a>
+								</li>
+								<li class="card_4_element_list element_list">
+									<a class="list_link" target="_blank" href="http://www.gtp-tabs.ru/">Gtp-Tabs - табы для Guitar Pro</a>
+								</li>
+								<li class="card_4_element_list element_list">
+									<a href="https://www.ultimate-guitar.com/" class="list_link" target="_blank">UltimateGuitar - одна из лучших баз аккордов и табов</a>
+								</li>
+								<!-- <li class="card_4_element_list element_list">
+									<a href="" class="list_link" target="_blank"></a>
+								</li>
+								<li class="card_4_element_list element_list">
+									<a href="" class="list_link" target="_blank"></a>
+								</li>-->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</main>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="JS/main.js"></script>
 <script src="JS/easing_plugin.js"></script>
 </body>
